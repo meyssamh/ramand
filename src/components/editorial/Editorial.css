@@ -1,0 +1,31 @@
+.modal-container {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	background-color: #fff;
+	width: 70%;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.modal-title {
+	text-align: center;
+	padding: 20px;
+}
+
+.modal-inputs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 40%;
+}
+
+.modal-actions {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+}

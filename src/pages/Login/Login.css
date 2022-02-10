@@ -1,0 +1,52 @@
+.login-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20vh;
+}
+
+.input-container {
+	height: 50vh;
+	width: 90vw;
+	max-width: 720px;
+	max-height: 255px;
+	border: 1px solid black;
+}
+
+.title {
+	text-align: center;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.action {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	padding-top: 2rem;
+}
+
+.button {
+	height: 30px;
+	width: 70px;
+	border: none;
+}
+
+.cancel-button {
+	background-color: lightsalmon;
+}
+
+.login-button {
+	background-color: aquamarine;
+}
+
+.login-button:disabled {
+	background-color: ghostwhite;
+}
